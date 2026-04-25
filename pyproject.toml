@@ -1,0 +1,29 @@
+[project]
+name = "ravensarmy"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "astropy>=7.2.0",
+    "chromadb>=1.5.8",
+    "cognee>=1.0.3",
+    "fastapi>=0.136.1",
+    "litellm>=1.83.13",
+    "mcp[cli]>=1.27.0",
+    "nanobot>=0.4.1",
+    "nanobot-ai>=0.1.4",
+    "nats-py>=2.14.0",
+    "nats-server>=0.0.0",
+    "networkx>=3.6.1",
+    "numpy>=2.4.4",
+    "ollama>=0.6.1",
+    "openai>=2.24.0",
+    "pandas>=3.0.2",
+    "paramiko>=4.0.0",
+    "pocketflow>=0.0.3",
+    "requests>=2.33.1",
+    "scipy>=1.17.1",
+    "sympy>=1.14.0",
+    "transformers>=5.6.2",
+]

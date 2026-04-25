@@ -1,0 +1,12 @@
+{
+  "name": "ravensarmy",
+  "version": "1.0.0",
+  "description": "RA-SEE",
+  "license": "MIT",
+  "author": "Sett Sarverott",
+  "type": "commonjs",
+  "main": "src/webapp/index.js",
+  "scripts": {
+    "test": "task test"
+  }
+}
