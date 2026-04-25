@@ -8,5 +8,6 @@ vars:
 tasks:
   default:
     cmds:
-      - echo "{{.GREETING}}"
+      - docker build --tag rasee-redsquados:latest .
+      - docker run --volume ./distro-iso:/home/kali/__WORKSHOP/devarmory/live-build-config/images rasee-redsquados:latest
     silent: true
