@@ -5042,7 +5042,7 @@ wheels = [
 
 [[package]]
 name = "pydy"
-version = "0.8.0"
+version = "0.9.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "numpy" },
@@ -5051,7 +5051,7 @@ dependencies = [
     { name = "setuptools" },
     { name = "sympy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/31/a1/9652a151e9eb90738408626cf97265bf7502262fc58de1a55fa7fd937a34/pydy-0.8.0.tar.gz", hash = "sha256:1b78aa333cbf5b772dcff7384f72ea6324d33156e5cb518c92630b8bdea6ccc7", size = 6591160, upload-time = "2025-08-28T09:47:12.459Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/a5/8c/4186638d7d04cbf7f06dc48da304c5275f629e4469e7553f2fe451f9ae43/pydy-0.9.4.tar.gz", hash = "sha256:c09fe6c68715d7686cb10a9829a48366d2d06c3124a3f6ed0f30a65dfd6524ea", size = 6551085, upload-time = "2026-04-26T18:36:32.928Z" }
 
 [[package]]
 name = "pyerfa"
@@ -6045,7 +6045,7 @@ requires-dist = [
     { name = "podman", specifier = ">=5.8.0" },
     { name = "psycopg", specifier = ">=3.3.3" },
     { name = "pydantic", specifier = ">=2.12.5" },
-    { name = "pydy", specifier = ">=0.8.0" },
+    { name = "pydy", specifier = ">=0.9.4" },
     { name = "pyfiglet", specifier = ">=1.0.4" },
     { name = "pyjwt", specifier = ">=2.12.1" },
     { name = "pymc", specifier = ">=5.28.4" },
